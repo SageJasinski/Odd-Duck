@@ -4,15 +4,31 @@ h1 {
 #firstimg {
     width: 200px;
     margin: auto;
-    padding: 10px
+    padding: 30px;
+    border: blanchedalmond double 10px;
+}
+#firstimg:hover {
+    background-color: grey;
 }
 #secondimg {
     width: 200px;
     margin: auto;
-    padding: 10px;
+    padding: 30px;
+    border: blanchedalmond double 10px;
+}
+#secondimg:hover {
+    background-color: grey;
 }
 #thirdimg {
     width: 200px;
     margin: auto;
-    padding: 10px;
+    padding: 30px;
+    border: blanchedalmond double 10px;
+}
+#thirdimg:hover {
+    background-color: grey;
+}
+#imgcontainer {
+    display: flex;
+    flex-direction: row;
 }
